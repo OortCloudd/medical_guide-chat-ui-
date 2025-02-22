@@ -1,0 +1,28 @@
+{
+  "name": "voice2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.22.0",
+    "@mistralai/mistralai": "^1.5.0",
+    "axios": "^1.7.9",
+    "elevenlabs-js": "^1.2.6",
+    "next": "15.1.7",
+    "posthog-js": "^1.223.2",
+    "posthog-node": "^4.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
