@@ -1,7 +1,5 @@
 # MedicalGuide - AI-Powered Voice Assistant for Health
 
-![MedicalGuide Banner](https://your-image-url.com/banner.png) *(Replace with a real banner image if available)*
-
 🚀 **MedicalGuide** is an AI-powered voice assistant built to provide **real-time health guidance** using cutting-edge AI technologies. This project was developed for the ElevenLabs AI Agents Hackathon and showcases the integration of **speech synthesis (TTS), speech recognition (STT), and LLM-based medical assistance**.
 
 🔗 **Live Demo**: [MedicalGuide](https://medicalguide-28g22hl95-oortcloudds-projects.vercel.app/) *(Click to Try It!)*
@@ -10,7 +8,7 @@
 
 ✅ **Conversational AI** – Ask medical-related questions, and the assistant provides real-time voice responses.  
 ✅ **ElevenLabs TTS** – Natural, human-like speech synthesis for engaging interactions.  
-✅ **RAG** – RAG added for increased fiability 
+✅ **RAG** – RAG added for increased reliability
 ✅ **Gemini 2.0 Flash** – Intelligent responses trained on medical knowledge.  
 ✅ **Optimized for Accessibility** – Hands-free interaction for visually impaired users.  
 ✅ **Deployed on Vercel** – Fast and scalable hosting.  
