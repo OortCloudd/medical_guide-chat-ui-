@@ -1,45 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MedicalGuide - AI-Powered Voice Assistant for Health
 
-## Getting Started
+![MedicalGuide Banner](https://your-image-url.com/banner.png) *(Replace with a real banner image if available)*
 
-First, run the development server:
+🚀 **MedicalGuide** is an AI-powered voice assistant built to provide **real-time health guidance** using cutting-edge AI technologies. This project was developed for the ElevenLabs AI Agents Hackathon and showcases the integration of **speech synthesis (TTS), speech recognition (STT), and LLM-based medical assistance**.
+
+🔗 **Live Demo**: [MedicalGuide](https://medicalguide-28g22hl95-oortcloudds-projects.vercel.app/) *(Click to Try It!)*
+
+## ✨ Features
+
+✅ **Conversational AI** – Ask medical-related questions, and the assistant provides real-time voice responses.  
+✅ **ElevenLabs TTS** – Natural, human-like speech synthesis for engaging interactions.  
+✅ **RAG** – RAG added for increased fiability 
+✅ **Gemini 2.0 Flash** – Intelligent responses trained on medical knowledge.  
+✅ **Optimized for Accessibility** – Hands-free interaction for visually impaired users.  
+✅ **Deployed on Vercel** – Fast and scalable hosting.  
+
+## 🛠 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org) (React, Tailwind CSS for styling)
+- **Backend**: Next.js API Routes, Node.js
+- **AI Models**: Gemini 2.0 Flash
+- **Speech Synthesis**: [ElevenLabs API](https://elevenlabs.io)
+- **Hosting**: Vercel (for frontend and backend API deployment)
+- **Analytics (In Progress)**: PostHog (user behavior tracking, optional)
+- **Automation (In Progress)**: Make (Integromat) for external workflows
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/yourusername/medicalguide.git
+cd medicalguide
+
+# Install dependencies
+npm install  # or yarn install
 ```
 
+### Running Locally
 
+Start the development server:
 
+```bash
+npm run dev  # or yarn dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) to see the project in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 API Configuration
 
+Before running, create a `.env.local` file in the root directory and add your API keys:
 
-https://medicalguide-28g22hl95-oortcloudds-projects.vercel.app/
+```ini
+GEMINI_API_KEY=your-gemini-api-key
+ELEVENLABS_API_KEY=your-elevenlabs-api-key
+ELEVENLABS_MODEL_ID=your-elevenlabs-model-id
+POSTHOG_API_KEY=your-posthog-api-key (optional)
+```
 
+## 📦 Deployment
 
+Deploying to Vercel is seamless:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+vercel
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Or manually deploy from the [Vercel Dashboard](https://vercel.com/new).
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+*(Add relevant screenshots of the app UI and interactions here.)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤖 How It Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. User clicks the microphone button and speaks a question.
+2. The voice input is converted to text using STT.
+3. The text query is processed by Gemini to generate a response.
+4. The AI-generated response is synthesized into speech using ElevenLabs.
+5. The voice assistant speaks the answer back to the user.
 
-## Deploy on Vercel
+## 🎯 Why This Project Matters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔹 **Accessible Healthcare** – Provides quick, AI-powered medical insights.  
+🔹 **Voice-First Interaction** – Enables hands-free assistance, crucial for visually impaired individuals.  
+🔹 **Scalable AI Assistant** – Future iterations can expand beyond ophthalmology to general medicine.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Contributions & Future Work
+
+We welcome contributions! Here are potential improvements:
+- **Fine-tuning Gemini for medical accuracy** 📚
+- **Adding multi-language support** 🌍
+- **Expanding to other medical domains** 🏥
+- **Enhancing real-time AI response speed** ⚡
+
+## 💡 Learn More
+
+To dive deeper into the technologies used:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [ElevenLabs API Docs](https://elevenlabs.io)
+- [Vercel Deployment Guide](https://vercel.com/docs)
+
+## 📜 License
+
+This project is open-source under the MIT License. Feel free to fork and enhance!
+
+## 🙌 Connect
+
+👤 **Your Name**  
+📧 [louissi.nassim@gmail.com](mailto:louissi.nassim@gmail.com)  
+🔗 [LinkedIn](www.linkedin.com/in/nassimlouissi) | [GitHub](https://github.com/OortCloudd) | [Portfolio][Coming soon !]
+
+---
+
+⭐ **If you found this project interesting, give it a star!** ⭐
+
