@@ -83,14 +83,14 @@ Or manually deploy from the [Vercel Dashboard](https://vercel.com/new).
 
 🔹 **Accessible Healthcare** – Provides quick, AI-powered medical insights.  
 🔹 **Voice-First Interaction** – Enables hands-free assistance, crucial for visually impaired individuals.  
-🔹 **Scalable AI Assistant** – Future iterations can expand beyond ophthalmology to general medicine.
+🔹 **Scalable AI Assistant** – Future iterations can expand beyond general medicine to more specialized one, perhaps using a distinct Mixture Of Experts (MoE) architecture.
 
 ## 👨‍💻 Contributions & Future Work
 
 We welcome contributions! Here are potential improvements:
 - **Fine-tuning Gemini for medical accuracy** 📚
 - **Adding multi-language support** 🌍
-- **Expanding to other medical domains** 🏥
+- **Expanding to other specialized medical domains** 🏥
 - **Enhancing real-time AI response speed** ⚡
 
 ## 💡 Learn More
